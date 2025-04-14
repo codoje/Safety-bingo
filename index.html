@@ -5,62 +5,98 @@
   <title>Safety Bingo</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f4f4f4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #eef2f3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
     }
-    h1 {
-      color: #2c3e50;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-    }
+
     .card {
       background: white;
-      padding: 20px;
-      border-radius: 10px;
+      padding: 30px;
+      max-width: 700px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #27ae60;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #2c3e50;
+      margin-top: 30px;
+    }
+
+    p, li {
+      color: #333;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #27ae60;
+      color: white;
+      padding: 10px 16px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    a:hover {
+      background-color: #219150;
+    }
+
+    img {
+      margin-top: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      max-width: 100%;
     }
   </style>
 </head>
-
 <body>
   <div class="card">
-    <h1><strong>Safety Bingo</strong></h1>
-    <p>
-      Win a small prize for your first bingo. Earn one ticket to be entered for a big prize for every bingo after that.
-      You can get more than one ticket! Bingo ends on <strong>4/28/25</strong> — take your time and have fun.
-    </p>
+    <h1>Safety Bingo</h1>
+    <p>Win a small prize for your first bingo. Earn one ticket to be entered for a big prize for every bingo after that. You can get more than one ticket! Bingo ends on <strong>4/28/25</strong> — take your time and have fun.</p>
 
     <h2>How to Play:</h2>
     <ul>
       <li>Follow safe practices on the floor</li>
-      <li>Get a manager or somebody in safety to punch a hole for you.</li>
-      <li>When you get a row, line, or diagonal you win — BINGO! No other bingos count — sorry!</li>
-      <li>When you get a bingo, bring your card to AmCare or find somebody from safety for your prize or ticket.</li>
+      <li>Get a manager or somebody in safety to punch your card</li>
+      <li>When you get a row, line, or diagonal — BINGO!</li>
+      <li>Bring your card to AmCare or find someone from Safety to claim your prize</li>
     </ul>
 
     <h2>Small Prizes:</h2>
     <ul>
-      <li><strong>You only get one small prize.</strong> Ask to spin the wheel to find out what you’re getting! Prizes are random, but here are some possibilities:</li>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
+      <li>Spin the prize wheel for a random reward!</li>
+      <li>Examples: snack bags, energy drinks, stickers, etc.</li>
     </ul>
 
     <h2>Large Prizes:</h2>
     <ul>
-      <li>The tickets will be drawn on <strong>4/28/25</strong>.</li>
-      <li>First place prize:</li>
-      <li>Second place prize:</li>
-      <li>Third place prize:</li>
+      <li>All tickets entered into a raffle drawn on <strong>4/28/25</strong></li>
+      <li><strong>1st Place:</strong> [Insert prize]</li>
+      <li><strong>2nd Place:</strong> [Insert prize]</li>
+      <li><strong>3rd Place:</strong> [Insert prize]</li>
     </ul>
 
     <h2>Sample Bingo Card:</h2>
     <img src="bingo-card.png" alt="Sample Bingo Card">
 
-    <p><a href="bingo-card.pdf" download>Download Printable Bingo Card</a></p>
+    <a href="bingo-card.pdf" download>Download Printable Bingo Card</a>
   </div>
 </body>
 </html>
